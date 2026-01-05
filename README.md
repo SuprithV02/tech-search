@@ -46,7 +46,7 @@ Tech Search is a distributed system that provides curated, AI-generated technolo
                     Returns
 
 
-       **The Technical Flow 🔧**
+**The Technical Flow 🔧**
  -------------------------------------------------------------
 **Scenario 1: Cache Hit **
 
@@ -117,7 +117,7 @@ After ~15s, data ready, user gets 200 OK with fresh content
                                                                  **🏗️ System Architecture**
 
 
-**High-Level Overview**
+                   **High-Level Overview**
                                                                     
                     ┌─────────────────┐
                     │   Users/Clients  │
@@ -140,10 +140,10 @@ After ~15s, data ready, user gets 200 OK with fresh content
                              │
            ┌─────────────────┼─────────────────┐
            │                 │                 │
-  ┌────────▼────────┐ ┌─────▼──────┐ ┌───────▼────────┐
-  │  Redis Cache    │ │ PostgreSQL │ │   RabbitMQ     │
-  │  (Hot Layer)    │ │   (SoT)    │ │  (Job Queue)   │
-  └─────────────────┘ └────────────┘ └───────┬────────┘
+    ┌────────▼────────┐ ┌─────▼──────┐ ┌───────▼────────┐
+    │  Redis Cache    │ │ PostgreSQL │ │   RabbitMQ     │
+    │  (Hot Layer)    │ │   (SoT)    │ │  (Job Queue)   │
+    └─────────────────┘ └────────────┘ └───────┬────────┘
                                               │
                                      ┌────────▼────────┐
                                      │   AI Service    │
@@ -157,7 +157,7 @@ After ~15s, data ready, user gets 200 OK with fresh content
 
 
 
-                      **Component Responsibilities**
+ **Component Responsibilities**
 
 🌐 NGINX API Gateway (Technology: NGINX 1.25)
 
@@ -227,7 +227,8 @@ tech.refresh.dlq (dead letter queue)
 
 
 
-                                            **✨ Key Features**
+**✨ Key Features**
+
 1. ⚡ Lightning Fast Responses
 
 30ms for cached data (70%+ of requests)
@@ -272,7 +273,7 @@ Chaos engineering ready****
 
 
 
-                                              🛠️ Technology Stack
+                                          🛠️ Technology Stack
     **Backend**
 
     API Framework  ->   Spring Boot
@@ -299,4 +300,5 @@ Chaos engineering ready****
     Alerts     ->  AlertManager
 
  
+
 
