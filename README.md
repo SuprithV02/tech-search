@@ -1,8 +1,9 @@
 **🔍 Tech Search - AI-Powered Technology Information System**
 
     The 30-Second Elevator Pitch
-    "I built a system that delivers AI-generated technology information with sub-second response times. When users search for a technology like 'React', 
-    they get instant, curated information - description, use cases, and learning resources. The system uses async processing so users never wait for AI,
+    "I built a system that delivers AI-generated technology information with sub-second response times.
+    When users search for a technology like 'React', they get instant, curated information - description,
+    use cases, and learning resources. The system uses async processing so users never wait for AI,
     and it gracefully handles failures at every layer."
 
 A production-ready microservices architecture for delivering curated, AI-generated technology information with sub-second response times.
@@ -305,6 +306,7 @@ Chaos engineering ready****
     Alerts     ->  AlertManager
 
  
+
 
 
 
