@@ -32,18 +32,18 @@ Tech Search is a distributed system that provides curated, AI-generated technolo
 
       You → "What is Rust?"
             ↓
-System checks: "Do I already know about Rust?"
+     System checks: "Do I already know about Rust?"
        ↓                ↓
-   ┌─YES─┐           ┌─NO──┐
-   │     │           │     │
-   ↓     ↓           ↓     ↓
-FAST! ⚡         Robot 🤖    
-Return            reads &
-answer           learns
-in 30ms          (15 sec)
-                     ↓
-                  Saves &
-                  Returns
+    ┌─YES─┐           ┌─NO──┐
+    │     │           │     │
+    ↓     ↓           ↓     ↓
+    FAST! ⚡         Robot 🤖    
+    Return            reads &
+    answer           learns
+    in 30ms          (15 sec)
+                       ↓
+                    Saves &
+                    Returns
 
 
        **The Technical Flow 🔧**
@@ -299,3 +299,4 @@ Chaos engineering ready****
     Alerts     ->  AlertManager
 
  
+
